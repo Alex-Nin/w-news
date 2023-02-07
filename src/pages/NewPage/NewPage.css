@@ -1,0 +1,151 @@
+h1 {
+    padding: 28px 0px 41px;
+    font-size: 58px;
+    border-bottom: 1px solid var(--very-dark-blue);
+    color: var(--very-dark-blue);
+}
+
+#three-quarter-width {
+    width: 72%;
+}
+
+#full-width {
+    width: 100%;
+}
+
+.news-page-item {
+    margin: 65px 0;
+    padding-bottom: 30px
+}
+
+.news-page-item img {
+    width: 500px;
+    float: left;
+    margin: 0 53px 0 0;
+}
+
+.news-page-item h2 {
+    font-size: 60px;
+    color: var(--very-dark-blue);
+}
+
+.news-page-item p {
+    font-size: 21px;
+    line-height: 1.5;
+    color: var(--very-dark-blue);
+}
+
+.news-page-item:nth-of-type(4),
+.news-page-item:nth-of-type(2),
+.news-page-item:nth-of-type(3) {
+    border-bottom: 1px solid var(--very-dark-blue);
+}
+
+.trending-side {
+    padding: 33px 24px;
+    position: absolute;
+    right: 24px;
+    top: 248px;
+    background-color: var(--very-dark-blue);
+    width: 26%;
+    border-radius: 5px;
+    box-shadow:0 2px 24px 0 rgb(220, 220, 220);
+}
+
+.trending-title {
+    color: var(--primary-orange);
+    font-size: 47px;
+    margin-bottom: 18px;
+}
+
+.trending-item {
+    margin-top: 35px;
+    padding-bottom: 35px;
+    color: var(--light-bg);
+}
+
+.trending-item-title {
+    font-size: 20px;
+    margin: 15px 0;
+    cursor: pointer;
+    color: var(--light-bg);
+}
+
+.trending-item-title:hover {
+    color: var(--primary-orange);
+    transition: 0.2s;
+}
+
+.trending-item p {
+    font-size: 14px;
+    color: var(--grayish-blue);
+}
+
+.trending-item:nth-of-type(1), 
+.trending-item:nth-of-type(2) {
+    border-bottom: 1px solid var(--light-bg);
+}
+
+.close-menu-icon {
+    position: absolute;
+    top: 8px;
+    right: 9px;
+    cursor: pointer;
+}
+
+#toggle-visible {
+    visibility: visible;
+}
+
+#toggle-hidden {
+    visibility: hidden;
+}
+
+@media screen and (max-width: 1024px) {
+    .news-page-item img{
+        float: none;
+    }
+    
+}
+
+
+@media screen and (max-width: 960px) {
+
+    .trending-title {
+        font-size: 30px;
+    }
+
+    .trending-item-title {
+        font-size: 16px;
+    }
+
+    .trending-item p {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .trending-side {
+        display: none;
+    }
+
+    /* Naming only applies to tablet view and bigger */
+    #three-quarter-width  {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .news-page-item img {
+        width: 250px;
+    }
+
+    .news-page-item h2 {
+        font-size: 30px;
+    }
+
+    .news-page-item p {
+        font-size: 16px;
+    }
+}
+
