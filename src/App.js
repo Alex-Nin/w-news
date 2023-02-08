@@ -14,7 +14,7 @@ function App() {
       <Router>
       <NavBar />
         <Routes>
-          <Route path='/' element={<HomePage />} />
+          <Route path='/w-news' element={<HomePage />} />
           <Route path='new' element={<NewPage />} />
           <Route path='trending' element={<TrendingPage />} />
         </Routes>
