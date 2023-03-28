@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/w-news/static/css/main.fddf1d48.css",
-    "main.js": "/w-news/static/js/main.976e6887.js",
+    "main.js": "/w-news/static/js/main.c5d5def8.js",
     "static/media/image-AI-desktop.jpg": "/w-news/static/media/image-AI-desktop.f4f4ab37ca81e55602dd.jpg",
     "static/media/image-VC-funding-desktop.jpg": "/w-news/static/media/image-VC-funding-desktop.be1cc506a72e1ad2e542.jpg",
     "static/media/image-hydrogen-powered-vehicles-desktop.jpg": "/w-news/static/media/image-hydrogen-powered-vehicles-desktop.2fd038f9426d4cf486a1.jpg",
@@ -10,10 +10,10 @@
     "static/media/image-retro-pcs.jpg": "/w-news/static/media/image-retro-pcs.4ecb8a36b05f012297a6.jpg",
     "index.html": "/w-news/index.html",
     "main.fddf1d48.css.map": "/w-news/static/css/main.fddf1d48.css.map",
-    "main.976e6887.js.map": "/w-news/static/js/main.976e6887.js.map"
+    "main.c5d5def8.js.map": "/w-news/static/js/main.c5d5def8.js.map"
   },
   "entrypoints": [
     "static/css/main.fddf1d48.css",
-    "static/js/main.976e6887.js"
+    "static/js/main.c5d5def8.js"
   ]
 }
